@@ -1,11 +1,6 @@
 {
   "productos": [
     {
-      "id": 1,
-      "nombre": "Jugo de Zanahoria",
-      "precio": "31111"
-    },
-    {
       "id": 2,
       "nombre": "Jugo de Naranja",
       "precio": "3"
@@ -24,7 +19,26 @@
       "id": 5,
       "nombre": "Jugo Multifruta",
       "precio": "999"
+    },
+    {
+      "nombre": " zanahorias",
+      "precio": 30,
+      "id": 6
+    },
+    {
+      "nombre": "tomate",
+      "precio": 8,
+      "id": 7
+    },
+    {
+      "nombre": "cebolla ",
+      "precio": 3,
+      "id": 8
+    },
+    {
+      "nombre": " zapallo",
+      "precio": 4,
+      "id": 9
     }
   ]
- 
 }

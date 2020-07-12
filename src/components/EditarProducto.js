@@ -1,4 +1,4 @@
-import React, {useState, useEffect, state} from 'react';
+import React, {useState, useEffect} from 'react';
 
 import {useDispatch, useSelector} from 'react-redux'
 
@@ -31,12 +31,12 @@ const EditarProducto = () => {
 
   const onChangeFormulario = e => {
     guardarProducto ({
-      ...state, 
+      ...producto, 
       [e.target.name] : e.target.value
     })
   }
 
-    //  const { nombre, precio} = producto
+ const { nombre, precio} = producto
   
 
   const submitEditarProducto = e => {
@@ -63,7 +63,7 @@ const EditarProducto = () => {
                 className="form-control"
                 placeholder="Nombre Producto"
                 name="nombre"
-                // value={nombre}
+                value={nombre}
                 onChange={onChangeFormulario}
                 />
             </div>
@@ -74,7 +74,7 @@ const EditarProducto = () => {
                 className="form-control"
                 placeholder="Precio Producto"
                 name="precio"
-                // value={precio}
+                value={precio}
                 onChange={onChangeFormulario}
                 />
             </div>

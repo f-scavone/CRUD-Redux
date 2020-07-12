@@ -12,9 +12,7 @@ const Productos = () => {
         //consulto a la api
         const cargaProductos = () => dispatch(obtenerProductosActions())
         cargaProductos()
-
-
-    }, [])
+    }, [dispatch])
 
     //obtener el state
     const productos = useSelector(state => state.productos.productos)
@@ -33,7 +31,7 @@ const Productos = () => {
         {loanding && <p className="text-center">Cargando...</p>}
 
       <table className="table table-striped">
-          <thread className="bg-primary table-dark">
+          <thread className="bg-primary table-dark pt-2 mt-4">
               <tr>
                   <th scope="col">Nombre</th>
                   <th scope="col">Precio</th>

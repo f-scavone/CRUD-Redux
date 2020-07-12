@@ -2,7 +2,7 @@
   "productos": [
     {
       "id": 2,
-      "nombre": "Jugo de Naranja",
+      "nombre": "jugo de Pera y Uva",
       "precio": "3"
     },
     {
@@ -39,6 +39,46 @@
       "nombre": " zapallo",
       "precio": 4,
       "id": 9
+    },
+    {
+      "nombre": " hola",
+      "precio": 6,
+      "id": 10
+    },
+    {
+      "nombre": " hola",
+      "precio": 1,
+      "id": 11
+    },
+    {
+      "nombre": " hola",
+      "precio": 45,
+      "id": 12
+    },
+    {
+      "nombre": " hola",
+      "precio": 56,
+      "id": 13
+    },
+    {
+      "nombre": " zanahorias",
+      "precio": 5,
+      "id": 14
+    },
+    {
+      "nombre": " zanahorias",
+      "precio": 7,
+      "id": 15
+    },
+    {
+      "nombre": " zanahorias",
+      "precio": 4,
+      "id": 16
+    },
+    {
+      "nombre": " pera",
+      "precio": 3,
+      "id": 17
     }
   ]
 }
